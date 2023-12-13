@@ -2,9 +2,9 @@
   <the-header></the-header>
    <div id="dashboard">
      <the-side-bar></the-side-bar>
-      <div class="dashboard-content">
+      
         <router-view></router-view>
-      </div>
+      
       <!-- Content / End -->
     </div>
 </template>

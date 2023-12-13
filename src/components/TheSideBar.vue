@@ -9,8 +9,13 @@
   <div class="dashboard-nav-inner">
 
     <ul data-submenu-title="Main">
-      <li class="active"><a href="dashboard.html"><i class="sl sl-icon-settings"></i> Dashboard</a></li>
-      <li><a href="dashboard-messages.html"><i class="sl sl-icon-envelope-open"></i> Messages <span class="nav-tag messages">2</span></a></li>
+      <li class="active"><router-link to="/home"><i class="sl sl-icon-settings"></i> Tổng quan</router-link></li>
+      <li><a><i class="sl sl-icon-layers"></i>Quản lý phòng</a>
+        <ul>
+          <li><router-link to="/list-room">Danh sách phòng <span class="nav-tag yellow">10</span></router-link></li>
+          <li><router-link to="/add-room">Thêm mới phòng </router-link></li>
+        </ul>	
+      </li>
       <li><a href="dashboard-bookings.html"><i class="fa fa-calendar-check-o"></i> Bookings</a></li>
       <li><a href="dashboard-wallet.html"><i class="sl sl-icon-wallet"></i> Wallet</a></li>
     </ul>
@@ -28,10 +33,6 @@
       <li><a href="dashboard-add-listing.html"><i class="sl sl-icon-plus"></i> Add Listing</a></li>
     </ul>	
 
-    <ul data-submenu-title="Account">
-      <li><a href="dashboard-my-profile.html"><i class="sl sl-icon-user"></i> My Profile</a></li>
-      <li><a href="index.html"><i class="sl sl-icon-power"></i> Logout</a></li>
-    </ul>
     
   </div>
 </div>

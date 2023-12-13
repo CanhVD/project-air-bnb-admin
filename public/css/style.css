@@ -15002,7 +15002,7 @@ span.like-icon {
 
 .dashboard-nav-inner {
 	max-height: 900px;
-	width: calc(100% + 17px);
+	width: calc(100% + 19px);
 	overflow-y: scroll;
 	position: relative;
 	display: block;
