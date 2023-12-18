@@ -1,7 +1,7 @@
 <template>
   	<!-- Content
 	================================================== -->
-	<div class="dashboard-content" >
+	<div class="dashboard-content" style="margin-left: 260px;" >
 
 <!-- Titlebar -->
 <div id="titlebar">
