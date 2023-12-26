@@ -5,6 +5,12 @@ const state = () => ({
   roomDetail: {}
 })
 
+const getters = {
+  dataRoom(state) {
+    return state.roomDetail
+  }
+};
+
 const mutations = {
   setDataRoomMutation(state, data) {
     state.dataRoom = data
@@ -40,6 +46,7 @@ const actions = {
 export default {
   namespaced: true,
   state,
+  getters,
   mutations,
   actions,
 }

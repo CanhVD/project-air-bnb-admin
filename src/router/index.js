@@ -28,6 +28,11 @@ const routes = [
     component: AddRoomView,
   },
   {
+    path: '/edit-room/:roomId',
+    name: 'EditRoomView',
+    component: AddRoomView,
+  },
+  {
     path: '/list-room',
     name: 'ListRoomView',
     component: ListRoomView,

@@ -13,7 +13,7 @@
 								</div>
 							</div>
 							<div class="buttons-to-right">
-								<a href="#" class="button gray"><i class="sl sl-icon-note"></i> Chi tiết</a>
+								<router-link :to="'/edit-room/' + room.id" class="button gray"><i class="sl sl-icon-note"></i> Chi tiết</router-link>
 								<a href="#" class="button gray"><i class="sl sl-icon-close"></i> Khóa</a>
 							</div>
 	</div>

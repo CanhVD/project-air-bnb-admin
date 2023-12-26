@@ -54,10 +54,12 @@
 <script>
 import { createNamespacedHelpers } from 'vuex'
 import RoomDetail from '../../components/RoomDetail.vue'
+import FormRoom from '../../components/FormRoom.vue'
 const {mapState,mapActions } = createNamespacedHelpers('moduleRoom')
 export default {
   components:{
-    RoomDetail
+    RoomDetail,
+    FormRoom
 },
 
   data(){
